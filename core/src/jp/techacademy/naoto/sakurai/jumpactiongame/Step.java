@@ -23,6 +23,7 @@ public class Step extends GameObject {
 
     public Step(int type, Texture texture, int srcX, int srcY, int srcWidth, int srcHeight) {
         super(texture, srcX, srcY, srcWidth, srcHeight);
+
         setSize(STEP_WIDTH, STEP_HEIGHT);
         mType = type;
         if (mType == STEP_TYPE_MOVING) {
